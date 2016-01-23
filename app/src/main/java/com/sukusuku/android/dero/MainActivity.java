@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_goal);
         } else { //鍵がない
             closeInstance.play();
-            Toast.makeText(this, "鍵がかかっているようだ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "鍵がかかっている", Toast.LENGTH_SHORT).show();
         }
     }
 
