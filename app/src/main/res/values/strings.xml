@@ -7,4 +7,9 @@
     <string name="title_activity_right">right</string>
     <string name="title_activity_back">back</string>
     <string name="title_activity_goal">goal</string>
+    <string name="title_activity_stage4_start">Stage4StartActivity</string>
+    <string name="title_activity_stage4_photo">Stage4Photo</string>
+    <string name="title_activity_stage4_message">Stage4Message</string>
+    <string name="title_activity_stage4_dokodemo_door">Stage4DokodemoDoor</string>
+    <string name="title_activity_ending">Ending</string>
 </resources>

@@ -29,4 +29,14 @@
         android:layout_marginBottom="153dp"
         android:onClick="start" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ステージ4(開発用)"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:onClick="goStage4" />
+
 </RelativeLayout>
