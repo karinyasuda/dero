@@ -12,4 +12,9 @@
     <string name="title_activity_stage4_message">Stage4Message</string>
     <string name="title_activity_stage4_dokodemo_door">Stage4DokodemoDoor</string>
     <string name="title_activity_ending">Ending</string>
+    <string name="title_activity_stage2_start">Stage2Start</string>
+    <string name="title_activity_stage2_hikidashi">Stage2_hikidashi</string>
+    <string name="title_activity_stage2_question">Stage2Question</string>
+    <string name="title_activity_stage3_start">Stage3Start</string>
+    <string name="title_activity_stage3_main">Stage3Main</string>
 </resources>

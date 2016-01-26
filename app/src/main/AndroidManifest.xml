@@ -57,6 +57,26 @@
         <activity
             android:name="com.sukusuku.dero.Ending"
             android:label="@string/title_activity_ending"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage2Start"
+            android:label="@string/title_activity_stage2_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage2_hikidashi"
+            android:label="@string/title_activity_stage2_hikidashi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage2Question"
+            android:label="@string/title_activity_stage2_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage3Start"
+            android:label="@string/title_activity_stage3_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage3Main"
+            android:label="@string/title_activity_stage3_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

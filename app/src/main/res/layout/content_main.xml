@@ -39,4 +39,24 @@
         android:textSize="30dp"
         android:onClick="goStage4" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ステージ3(開発用)"
+        android:id="@+id/button14"
+        android:textSize="30dp"
+        android:onClick="goStage3"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ステージ2(開発用)"
+        android:id="@+id/button15"
+        android:textSize="30dp"
+        android:onClick="goStage2"
+        android:layout_above="@+id/button14"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
