@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sukusuku.android.dero" >
+    package="com.sukusuku.android.dero">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,28 +21,43 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Front"
             android:label="@string/title_activity_front"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Left"
             android:label="@string/title_activity_left"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Right"
             android:label="@string/title_activity_right"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Back"
             android:label="@string/title_activity_back"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage4StartActivity"
+            android:label="@string/title_activity_stage4_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage4Photo"
+            android:label="@string/title_activity_stage4_photo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage4Message"
+            android:label="@string/title_activity_stage4_message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage4DokodemoDoor"
+            android:label="@string/title_activity_stage4_dokodemo_door"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Ending"
+            android:label="@string/title_activity_ending"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

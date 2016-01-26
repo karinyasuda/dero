@@ -17,6 +17,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.sukusuku.dero.Stage4Message;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -83,6 +85,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    //stage4へ
+    public void goStage4(View v) {
+        Intent intent = new Intent();
+        //原が作ったものと異なるパッケージにしたのでここを参考にして画面遷移してください　http://techbooster.org/android/application/8346/
+        intent.setClassName(this,"com.sukusuku.dero.Stage4StartActivity");
+        startActivity(intent);
     }
 
 
@@ -225,6 +234,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //-----------------------------------------
-
 
 }
