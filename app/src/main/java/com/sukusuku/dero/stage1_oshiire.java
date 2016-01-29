@@ -1,5 +1,6 @@
 package com.sukusuku.dero;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,5 +26,20 @@ public class stage1_oshiire extends AppCompatActivity {
             }
         });
     }
+
+    public void goStage1room(View v) {
+        Intent intent = new Intent(this, stage1room.class);
+        startActivity(intent);
+    }
+    public void goStage1floor1(View v) {
+        Intent intent = new Intent(this, stage1_floor1.class);
+        startActivity(intent);
+    }
+
+    public void goStage2(View v) {
+        Intent intent = new Intent(this, stage2.class);
+        startActivity(intent);
+    }
+
 
 }

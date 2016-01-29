@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sukusuku.android.dero">
+    package="com.sukusuku.android.dero" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -57,7 +67,33 @@
         <activity
             android:name="com.sukusuku.dero.Ending"
             android:label="@string/title_activity_ending"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage1start"
+            android:label="@string/title_activity_stage1start"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.sukusuku.dero.stage1room"
+            android:label="@string/title_activity_stage1room"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".PlaybackOverlayActivity" />
+        <activity android:name=".BrowseErrorActivity" />
+        <activity
+            android:name="com.sukusuku.dero.stage1_floor1"
+            android:label="@string/title_activity_stage1_floor1"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".DetailsActivity2" />
+        <activity android:name=".PlaybackOverlayActivity" />
+        <activity android:name=".BrowseErrorActivity" />
+        <activity
+            android:name="com.sukusuku.dero.stage1_oshiire"
+            android:label="@string/title_activity_stage1_oshiire"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

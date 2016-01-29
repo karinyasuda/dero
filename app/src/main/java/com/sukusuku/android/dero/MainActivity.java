@@ -94,6 +94,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goStage1(View v) {
+        Intent intent = new Intent();
+        intent.setClassName(this,"com.sukusuku.dero.Stage1start");
+        startActivity(intent);
+    }
+
 
     //---------------start---------------------
 

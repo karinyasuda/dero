@@ -8,6 +8,44 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_stage1_oshiire"
-    tools:context="com.sukusuku.android.dero.stage1_oshiire">
+    tools:context="com.sukusuku.dero.stage1_oshiire">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="押入れ"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1階へ"
+        android:id="@+id/button14"
+        android:layout_marginBottom="111dp"
+        android:onClick="goStage1floor1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="部屋へ"
+        android:id="@+id/button15"
+        android:layout_alignTop="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="goStage1heya" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答え合わせ"
+        android:id="@+id/button16"
+        android:layout_below="@+id/button15"
+        android:layout_centerHorizontal="true"
+        android:onClick="goStage2" />
 </RelativeLayout>
