@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public CloseDoor closeInstance;
     public WalkSound walkInstance;
 
-    private MediaPlayer mp;
+    public MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
 
         imageButton = (ImageButton)findViewById(R.id.start);
 

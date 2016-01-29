@@ -12,34 +12,44 @@
     tools:context="com.sukusuku.dero.Stage4Photo"
     tools:showIn="@layout/activity_stage4_photo">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="何か写真"
-        android:id="@+id/textView7"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="71dp"
-        android:textSize="30dp" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="(どこでもドア)"
         android:id="@+id/button7"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:textSize="20dp"
-        android:onClick="toStage4DokodemoDoorFromPhoto" />
+        android:onClick="toStage4DokodemoDoorFromPhoto"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="(メッセージへ)"
         android:id="@+id/button8"
-        android:layout_centerVertical="true"
+        android:onClick="toStage4MessageFromPhoto"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/buttonDokodemodoorKey"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="toStage4MessageFromPhoto" />
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDokodemodoorKey"
+        android:src="@drawable/key"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickDokodemodoorKey" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="どこでもドアの鍵"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
 </RelativeLayout>
