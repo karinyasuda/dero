@@ -17,4 +17,9 @@
     <string name="title_activity_stage2_question">Stage2Question</string>
     <string name="title_activity_stage3_start">Stage3Start</string>
     <string name="title_activity_stage3_main">Stage3Main</string>
+    <string name="title_activity_stage1_start">Stage1Start</string>
+    <string name="title_activity_game_start">GameStart</string>
+    <string name="title_activity_stage1_room">Stage1Room</string>
+    <string name="title_activity_stage1_oshiire">Stage1_oshiire</string>
+    <string name="title_activity_stage1_floor1">Stage1_floor1</string>
 </resources>

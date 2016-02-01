@@ -77,6 +77,26 @@
         <activity
             android:name="com.sukusuku.dero.Stage3Main"
             android:label="@string/title_activity_stage3_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage1Start"
+            android:label="@string/title_activity_stage1_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.GameStart"
+            android:label="@string/title_activity_game_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage1Room"
+            android:label="@string/title_activity_stage1_room"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage1_oshiire"
+            android:label="@string/title_activity_stage1_oshiire"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sukusuku.dero.Stage1_floor1"
+            android:label="@string/title_activity_stage1_floor1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
