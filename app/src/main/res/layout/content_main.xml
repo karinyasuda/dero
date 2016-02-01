@@ -27,7 +27,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="153dp"
-        android:onClick="start" />
+        android:onClick="goStage1" />
 
     <Button
         android:layout_width="wrap_content"

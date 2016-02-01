@@ -88,6 +88,12 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    public void goStage1(View v) {
+        Intent intent = new Intent();
+        //原が作ったものと異なるパッケージにしたのでここを参考にして画面遷移してください　http://techbooster.org/android/application/8346/
+        intent.setClassName(this,"com.sukusuku.dero.Stage1Start");
+        startActivity(intent);
+    }
     //stage2へ
     public void goStage2(View v) {
         Intent intent = new Intent();

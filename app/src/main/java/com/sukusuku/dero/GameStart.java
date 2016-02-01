@@ -1,5 +1,6 @@
 package com.sukusuku.dero;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,6 +27,10 @@ public class GameStart extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+    public void goStage1Start(View v) {
+        Intent intent = new Intent(this, Stage1Start.class);
+        startActivity(intent);
     }
 
 }
