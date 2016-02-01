@@ -21,6 +21,18 @@
         android:layout_centerHorizontal="true"
         android:textSize="30dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer"
+        android:layout_marginTop="130dp"
+        android:textSize="30sp"
+        android:hint="答えを入力"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_weight="0.04" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,5 +42,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="127dp"
         android:nestedScrollingEnabled="false"
-        android:onClick="goStage2Question" />
+        android:onClick="goStage2Question"
+        android:layout_gravity="right" />
+
 </RelativeLayout>
