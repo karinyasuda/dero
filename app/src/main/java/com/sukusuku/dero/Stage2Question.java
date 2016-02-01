@@ -7,6 +7,10 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
+
+
+
 
 import com.sukusuku.android.dero.R;
 
@@ -16,6 +20,9 @@ public class Stage2Question extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stage2_question);
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,7 +36,7 @@ public class Stage2Question extends AppCompatActivity {
         });
     }
     public void toStage2HikidashiFromQuestion(View v) {
-        Intent intent = new Intent(this, Stage2_hikidashi.class);
+        Intent intent = new Intent(this,s Stage2_hikidashi.class);
         startActivity(intent);
     }
 
