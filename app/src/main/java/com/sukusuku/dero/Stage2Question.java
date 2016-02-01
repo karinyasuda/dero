@@ -14,6 +14,10 @@ import android.view.View;
 //
 import com.sukusuku.android.dero.R;
 
+
+
+
+
 public class Stage2Question extends AppCompatActivity {
 
     @Override
