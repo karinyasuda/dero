@@ -17,9 +17,10 @@
         android:layout_height="wrap_content"
         android:text="友達を探してね"
         android:id="@+id/textView11"
+        android:textSize="30sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp" />
+        android:layout_marginTop="63dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,5 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="127dp"
         android:nestedScrollingEnabled="false"
-        android:onClick="goStage2Question" />
+        android:onClick="goStage2Question"
+        android:layout_gravity="right" />
+
 </RelativeLayout>

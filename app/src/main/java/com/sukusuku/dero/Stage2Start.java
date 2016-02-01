@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+
+
+
 import com.sukusuku.android.dero.R;
 
 public class Stage2Start extends AppCompatActivity {
@@ -16,6 +19,11 @@ public class Stage2Start extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stage2_start);
+
+
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -32,5 +40,6 @@ public class Stage2Start extends AppCompatActivity {
         Intent intent = new Intent(this, Stage2Question.class);
         startActivity(intent);
     }
+
 
 }
