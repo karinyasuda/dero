@@ -1,16 +1,20 @@
 package com.sukusuku.dero;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.sukusuku.android.dero.R;
 
 public class Stage4DokodemoDoor extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +41,16 @@ public class Stage4DokodemoDoor extends AppCompatActivity {
         startActivity(intent);
     }
     public void goEnding(View v) {
-        Intent intent = new Intent(this, Ending.class);
-        startActivity(intent);
+        if (Stage4StartActivity.pref.getBoolean("key1", false) == true) { //鍵がある
+            //トーストを表示
+            Toast.makeText(this, "ドアが開いたよ！", Toast.LENGTH_SHORT).show();
+            //画面の移動(インテント)
+            Intent intent = new Intent(this, Ending.class);
+            startActivity(intent);
+        } else { //鍵がない
+            Toast.makeText(this, "鍵ないがないよ！", Toast.LENGTH_SHORT).show();
+        }
+
     }
 
 }
