@@ -34,4 +34,12 @@
         android:onClick="goStage2Question"
         android:layout_gravity="right" />
 
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFF000" />
+
 </RelativeLayout>
