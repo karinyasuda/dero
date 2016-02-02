@@ -16,9 +16,10 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:id="@+id/imageView4"
-        android:background="#FFF000"
-        android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true" />
+        android:src="@drawable/sizuka"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_toEndOf="@+id/button9" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,11 +36,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="友達を探してね"
+        android:text="友達を探してね！"
         android:id="@+id/textView11"
-        android:textSize="30sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp" />
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toStartOf="@+id/imageView4"
+        android:layout_marginTop="60dp" />
 
 </RelativeLayout>
