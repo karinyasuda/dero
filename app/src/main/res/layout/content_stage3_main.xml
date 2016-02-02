@@ -37,6 +37,6 @@
         android:id="@+id/editText"
         android:layout_above="@+id/button13"
         android:layout_centerHorizontal="true"
-        android:text="答えを入力" />
+        android:hint="答えを入力" />
 
 </RelativeLayout>
