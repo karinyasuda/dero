@@ -12,14 +12,14 @@
     tools:context="com.sukusuku.dero.Stage4Message"
     tools:showIn="@layout/activity_stage4_message">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="暗号"
-        android:id="@+id/textView8"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="30dp" />
+        android:id="@+id/imageView7"
+        android:src="@drawable/nazolast"
+        android:layout_marginBottom="230dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,10 +27,11 @@
         android:text="右へ(どこでもドア)"
         android:id="@+id/button2"
         android:textSize="20dp"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/textView8"
-        android:layout_toEndOf="@+id/textView8"
-        android:onClick="goStage4DokodemoDoor" />
+        android:onClick="goStage4DokodemoDoor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_marginBottom="152dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -42,4 +43,5 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="goStage4Photo" />
+
 </RelativeLayout>

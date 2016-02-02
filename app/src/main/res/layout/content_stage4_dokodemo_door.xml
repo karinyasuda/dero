@@ -12,36 +12,34 @@
     tools:context="com.sukusuku.dero.Stage4DokodemoDoor"
     tools:showIn="@layout/activity_stage4_dokodemo_door">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="どこでもドア"
-        android:id="@+id/textView9"
-        android:layout_marginTop="77dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/stage1room4"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="30dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="どこでもドアの画像"
         android:id="@+id/button4"
         android:textSize="30dp"
         android:onClick="goEnding"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="109dp" />
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/button5"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="(メッセージへ)"
         android:id="@+id/button5"
-        android:layout_centerVertical="true"
+        android:onClick="toMessageFromDokodemoDoor"
+        android:layout_alignTop="@+id/button6"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="toMessageFromDokodemoDoor" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -53,4 +51,5 @@
         android:layout_alignParentEnd="true"
         android:textSize="20dp"
         android:onClick="toPhotoFromDokodemoDoor" />
+
 </RelativeLayout>

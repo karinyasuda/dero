@@ -12,4 +12,23 @@
     tools:context="com.sukusuku.dero.Stage1Start"
     tools:showIn="@layout/activity_stage1_start2">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次へ"
+        android:id="@+id/button17"
+        android:onClick="goStage1Room"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会話"
+        android:id="@+id/textView12"
+        android:layout_above="@+id/button17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp" />
 </RelativeLayout>
