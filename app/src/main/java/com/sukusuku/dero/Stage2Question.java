@@ -7,6 +7,8 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 //import android.widget.EditText;
 //import android.text.SpannableStringBuilder;
 //
@@ -50,8 +52,16 @@ public class Stage2Question extends AppCompatActivity {
         });
     }
     public void toStage2HikidashiFromQuestion(View v) {
-        Intent intent = new Intent(this,Stage2_hikidashi.class);
-        startActivity(intent);
+
+        EditText form = (EditText)findViewById(R.id.answer);
+        String tmp = form.getText().toString();
+            if (tmp.equals("たいむましん")){
+                Intent intent = new Intent(this,Stage2_hikidashi.class);
+                startActivity(intent);
+                finish();
+            }else {
+                Toast.makeText(this,"ひきだしがひらかないよ",Toast.LENGTH_SHORT).show();
+            }
     }
 
 }
